@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.primero {
+  background-color: rgb(2, 82, 87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 10px 0;
+}
+
+.button1 {
+  border: 1px solid aliceblue;
+  padding: 4px;
+  color: aliceblue;
+  background: none;
+  font-family: "poppins", sans-serif;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+.relleno,
+.vacio {
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+.relleno {
+  color: aliceblue;
+  border: none;
+  background: rgb(2, 82, 87);
+}
+
+.vacio {
+  background: none;
+  color: rgb(2, 82, 87);
+  border: 2px solid rgb(2, 82, 87);
+}
+
+.buttonsway {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  position: relative;
+  width: 100%;
+}
+
+.footer-background,
+.background {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.up {
+  display: flex;
+  width: 100%;
+  max-width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  top: 0px;
+  position: absolute;
+  z-index: 3;
+}
+
+.up p {
+  font-family: "poppins", sans-serif;
+  color: aliceblue;
+}
+
+.center {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: #222222cc;
+}
+
+.center p {
+  font-family: "poppins", sans-serif;
+  color: aliceblue;
+}
+
+.navbut {
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.text-left,
+.text-right {
+  width: 22%;
+  min-width: 22%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.images {
+  gap: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.images img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+h2 {
+  color: rgb(2, 82, 87);
+  font-weight: bold;
+}
+
+p {
+  font-family: "poppins", sans-serif;
+  color: black;
+}
+
+h1 {
+  font-family: "poppins", sans-serif;
+  color: aliceblue;
+}
+
+.text-left h2 {
+  font-family: "poppins", sans-serif;
+  color: rgb(rgb(66, 39, 7));
+}
+
+.text-right h2 {
+  font-family: "poppins", sans-serif;
+  color: rgb(2, 82, 87);
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  color: rgb(53, 3, 3);
+}
+
+.section1,
+.section2 {
+  display: flex;
+  margin-top: 60px;
+  width: 100%;
+  max-width: 90%;
+  gap: 100px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer {
+  margin-top: 60px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.father {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #222222cc;
+}
+
+.grid {
+  padding-top: 50px;
+  width: 100%;
+  max-width: 90%;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+
+.grid button,
+.grid p {
+  color: aliceblue;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.column p {
+  font-size: 14px;
+}
+
+.column button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid aliceblue;
+}
+
+.aligned {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fab {
+  position: absolute;
+  border-radius: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: rgb(2, 82, 87) !important;
+  background-color: aliceblue !important;
+  bottom: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+}
+
+.qr {
+  width: 120px;
+  height: 120px;
+}
